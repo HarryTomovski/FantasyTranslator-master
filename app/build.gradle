@@ -13,6 +13,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -45,9 +46,18 @@ dependencies {
     //Room
     implementation "androidx.room:room-runtime:2.2.5"
     annotationProcessor "androidx.room:room-compiler:2.2.5"
-
     //Firebase
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
     implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
+    //JUnit
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    //JUnit Rules
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    //Espresso
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    //Mockito
+    testImplementation 'org.mockito:mockito-core:1.10.19'
+
 
 }

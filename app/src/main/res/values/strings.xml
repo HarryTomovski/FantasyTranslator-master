@@ -8,9 +8,8 @@
     <string name="menu_log_out">Log out</string>
     <string name="nav_open">open</string>
     <string name="nav_close">close</string>
-    <string name="information" >Many days have I fought in order to finish this application. But alas, my work has come to an end. This app has been developed for the android spring semester 2020
-        project, it serves as proof that the student has acquired knowledge in regards to the topics discussed during class. Many translation apps are out there but not one can
-        translate Orlando Bloom, ahh I meant sindarin. What\'s more this app can translate pretty much any fantasy language there is. While there is still a lot to improve, especially
-        when it comes to the user interface, the application\'s main functionality works as planned.
-    </string>
+    <string name="information" >Many days have I fought in order to finish this application, but alas, my journey has come to an end....</string>
+    <string name="description" > This app has been developed for the spring semester 2020 Android hand-in.\n
+    It serves as proof that the student has acquired knowledge in regards to the topics discussed during class.</string>
+    <string name="author" >Haralambi Nikolaev Tomovski</string>
 </resources>
