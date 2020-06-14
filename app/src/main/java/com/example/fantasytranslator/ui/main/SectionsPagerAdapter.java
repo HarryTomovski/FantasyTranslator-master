@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.fantasytranslator.Fragments.PopularChoicesFragment;
+import com.example.fantasytranslator.Fragments.FavouriteLanguagesFragment;
 import com.example.fantasytranslator.R;
 import com.example.fantasytranslator.Fragments.TranslationFragment;
 
@@ -37,7 +37,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 fragment = TranslationFragment.newInstance();
                 break;
             case 1:
-                fragment= PopularChoicesFragment.newInstance();
+                fragment= FavouriteLanguagesFragment.newInstance();
                 break;
         }
         return fragment;

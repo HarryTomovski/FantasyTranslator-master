@@ -1,13 +1,10 @@
 package com.example.fantasytranslator.Fragments;
 
-import android.app.FragmentManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -22,7 +19,7 @@ import com.example.fantasytranslator.ViewModels.TranslationItemViewModel;
 
 import java.util.List;
 
-public class PopularChoicesFragment extends Fragment {
+public class FavouriteLanguagesFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private TranslationItemViewModel itemViewModel;
@@ -32,9 +29,9 @@ public class PopularChoicesFragment extends Fragment {
 
 
 
-    public static PopularChoicesFragment newInstance()
+    public static FavouriteLanguagesFragment newInstance()
     {
-        return new PopularChoicesFragment();
+        return new FavouriteLanguagesFragment();
     }
 
 

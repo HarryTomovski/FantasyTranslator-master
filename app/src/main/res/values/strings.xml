@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FantasyTranslator</string>
     <string name="tab_text_1">Translator</string>
-    <string name="tab_text_2">Popular languages</string>
+    <string name="tab_text_2">Favourite languages</string>
     <string name="fab_content_desc">Add to favourites</string>
     <string name="language">dothraki, sith, sindarin...</string>
     <string name="add_favourite">Add to favourites</string>

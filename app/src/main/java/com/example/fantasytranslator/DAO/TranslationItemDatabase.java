@@ -12,7 +12,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import com.example.fantasytranslator.Models.TranslationItem;
 import com.example.fantasytranslator.R;
 
-@Database(entities = {TranslationItem.class}, version = 1)
+@Database(entities = {TranslationItem.class}, version = 1,exportSchema = false)
 public abstract class TranslationItemDatabase extends RoomDatabase {
     private static TranslationItemDatabase instance;
     public abstract TranslationItemDAO dao();
