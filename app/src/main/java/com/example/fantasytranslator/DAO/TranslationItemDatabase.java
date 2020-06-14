@@ -44,7 +44,9 @@ public abstract class TranslationItemDatabase extends RoomDatabase {
         @Override
         protected Void doInBackground(Void... voids) {
 
+            dao.insert(new TranslationItem("dothraki", R.drawable.snoopkhaleesi));
           dao.insert(new TranslationItem("sith", R.drawable.sith));
+
 
             return null;
         }

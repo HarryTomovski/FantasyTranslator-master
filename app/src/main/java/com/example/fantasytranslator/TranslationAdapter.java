@@ -31,7 +31,7 @@ public class TranslationAdapter extends RecyclerView.Adapter<TranslationAdapter.
     public void onBindViewHolder(@NonNull ItemHolder holder, int position) {
         holder.language.setText(translations.get(position).getTranslation());
         holder.image.setImageResource(translations.get(position).getImageId());
-       /* imageId's would be a few and  they would repeat for the most popular choices: Sith, dothraki, elvish
+       /* imageId's would be a few and  they would repeat for the most popular choices: Sith, dothraki, sindarin
        * the rest would be the a general picture*/
     }
 

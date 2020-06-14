@@ -31,6 +31,7 @@ public class PopularChoicesFragment extends Fragment {
     private TranslationAdapter adapter;
 
 
+
     public static PopularChoicesFragment newInstance()
     {
         return new PopularChoicesFragment();
@@ -47,7 +48,6 @@ public class PopularChoicesFragment extends Fragment {
         itemViewModel=new ViewModelProvider(this).get(TranslationItemViewModel.class);
 
 
-
         adapter = new TranslationAdapter();
         recyclerView.setAdapter(adapter);
 
@@ -57,6 +57,7 @@ public class PopularChoicesFragment extends Fragment {
                 adapter.setTranslationItems(translationItems);
         }
         });
+
 
 
 

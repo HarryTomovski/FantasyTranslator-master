@@ -70,7 +70,7 @@ public class TranslationFragment extends Fragment {
         translationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("Language: "+language.getText().toString() +"Sentance: "+ toBeTranslated.getText().toString());
+                System.out.println("Language: "+language.getText().toString() + "Sentance: "+ toBeTranslated.getText().toString());
                 translationViewModel.requestTranslation(language.getText().toString(),toBeTranslated.getText().toString());
             }
         });
@@ -92,6 +92,8 @@ public class TranslationFragment extends Fragment {
                         break;
                     case "sindarin":
                         imageId=R.drawable.sindarin;
+                        System.out.println(R.drawable.sith);
+                        System.out.println(imageId);
                         break;
                     default:
                         imageId=R.drawable.mr_worldwide;

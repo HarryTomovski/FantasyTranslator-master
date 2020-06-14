@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "225083232638",
+    "firebase_url": "https://fantasytranslate.firebaseio.com",
+    "project_id": "fantasytranslate",
+    "storage_bucket": "fantasytranslate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225083232638:android:bcd88dfb270dc3b9fee32f",
+        "android_client_info": {
+          "package_name": "com.example.fantasytranslator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225083232638-nic5csq676famcpit420sj759paafm95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4GFiuklAPuYScUrvbWgogm6Eo4FOET9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225083232638-nic5csq676famcpit420sj759paafm95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

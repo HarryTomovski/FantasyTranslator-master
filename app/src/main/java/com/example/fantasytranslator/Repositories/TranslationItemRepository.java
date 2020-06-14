@@ -55,7 +55,7 @@ public class TranslationItemRepository {
         @Override
         protected Void doInBackground(TranslationItem... items) {
             translationDAO.insert(items[0]);
-            System.out.println("We've reached the insert............." + items[0].getTranslation());
+            System.out.println("We've reached the insert............." + items[0].getTranslation() +  "  " + items[0].getImageId());
             return null;
         }
     }
